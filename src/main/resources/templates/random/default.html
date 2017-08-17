@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>My Friends</title>
+	</head>
+
+	<body>
+	<form method="post" action="/">
+		{{#names}}
+			
+				<div>
+					<input type="text" name ="friendsName" value="{{ . }}">
+				</div>
+		{{/names}}
+		<button>UPDATE</button>
+	</form>
+	</body> 
+	
+</html>
